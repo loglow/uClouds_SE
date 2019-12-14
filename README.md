@@ -1,4 +1,4 @@
-# µClouds SE (uClouds, microClouds) Eurorack [Rev C]
+# µClouds SE (uClouds, microClouds) Eurorack [Rev D]
 
 ## 8HP Eurorack module | Granular audio processor
 
