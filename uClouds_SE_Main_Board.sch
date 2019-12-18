@@ -156,18 +156,8 @@ by exp-lbrs.ulp</description>
 <wire x1="1.4" y1="0.65" x2="1.4" y2="-0.65" width="0.127" layer="21"/>
 <smd name="1" x="-0.81" y="0" dx="0.81" dy="0.93" layer="1" rot="R180"/>
 <smd name="2" x="0.81" y="0" dx="0.81" dy="0.93" layer="1"/>
-<text x="1.75" y="0" size="1" layer="21" ratio="10" align="center-left">&gt;NAME</text>
+<text x="0" y="1" size="1" layer="21" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="0" size="0.75" layer="51" ratio="12" rot="R180" align="center">&gt;NAME</text>
-</package>
-<package name="0805-NP">
-<description>Capacitor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
-<wire x1="1.75" y1="1" x2="-1.75" y2="1" width="0.127" layer="21"/>
-<wire x1="1.75" y1="-1" x2="-1.75" y2="-1" width="0.127" layer="21"/>
-<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.127" layer="21"/>
-<wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="21"/>
-<smd name="1" x="-1" y="0" dx="1" dy="1.5" layer="1" rot="R180"/>
-<smd name="2" x="1" y="0" dx="1" dy="1.5" layer="1"/>
-<text x="0" y="2" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="1206-NP">
 <description>Capacitor, Chip; 3.20 mm L X 1.60 mm W X 0.65 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
@@ -181,7 +171,7 @@ by exp-lbrs.ulp</description>
 <wire x1="2.25" y1="1.1" x2="2.25" y2="-1.1" width="0.127" layer="21"/>
 <smd name="1" x="-1.535" y="0" dx="1" dy="1.77" layer="1" rot="R180"/>
 <smd name="2" x="1.535" y="0" dx="1" dy="1.77" layer="1"/>
-<text x="0" y="2" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="1.45" size="1" layer="21" ratio="10" align="bottom-center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="12" align="center">&gt;NAME</text>
 </package>
 <package name="PTH-0.05-2X5-SHROUDED">
@@ -216,39 +206,11 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.55" y1="6.325" x2="2.55" y2="6.325" width="0.127" layer="51"/>
 <text x="0" y="0" size="1" layer="51" ratio="12" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="PTH-0.1-2X5-FLIP">
-<wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="1.905" y1="-2.54" x2="1.27" y2="-1.905" width="0.127" layer="22"/>
-<wire x1="1.27" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="0.635" y1="-2.54" x2="-0.635" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="-0.635" y1="-2.54" x2="-1.27" y2="-1.905" width="0.127" layer="22"/>
-<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="-1.905" y1="-2.54" x2="-3.175" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="-3.175" y1="-2.54" x2="-3.81" y2="-1.905" width="0.127" layer="22"/>
-<wire x1="-3.81" y1="-1.905" x2="-4.445" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="-4.445" y1="-2.54" x2="-5.715" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="-5.715" y1="-2.54" x2="-6.35" y2="-1.905" width="0.127" layer="22"/>
-<wire x1="-6.35" y1="-1.905" x2="-6.35" y2="1.905" width="0.127" layer="22"/>
-<wire x1="-6.35" y1="1.905" x2="-5.715" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-5.715" y1="2.54" x2="-4.445" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-4.445" y1="2.54" x2="-3.81" y2="1.905" width="0.127" layer="22"/>
-<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.127" layer="22"/>
-<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.127" layer="22"/>
-<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.127" layer="22"/>
-<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.127" layer="22"/>
-<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.127" layer="22"/>
-<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.127" layer="22"/>
-<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.127" layer="22"/>
-<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.127" layer="22"/>
-<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.127" layer="22"/>
-<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.127" layer="22"/>
-<wire x1="6.35" y1="1.905" x2="6.35" y2="-1.905" width="0.127" layer="22"/>
-<wire x1="6.35" y1="-1.905" x2="5.715" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="5.715" y1="-2.54" x2="4.445" y2="-2.54" width="0.127" layer="22"/>
-<wire x1="4.445" y1="-2.54" x2="3.81" y2="-1.905" width="0.127" layer="22"/>
+<package name="PTH-0.1-2X5-FEMALE">
+<wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-6.35" y1="2.54" x2="6.35" y2="2.54" width="0.127" layer="22"/>
+<wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.127" layer="22"/>
 <pad name="1" x="-5.08" y="-1.27" drill="1" diameter="1.8"/>
 <pad name="2" x="-5.08" y="1.27" drill="1" diameter="1.8"/>
 <pad name="3" x="-2.54" y="-1.27" drill="1" diameter="1.8"/>
@@ -264,7 +226,7 @@ by exp-lbrs.ulp</description>
 <wire x1="6.35" y1="2.54" x2="6.35" y2="-2.54" width="0.127" layer="52"/>
 <wire x1="6.35" y1="-2.54" x2="-6.35" y2="-2.54" width="0.127" layer="52"/>
 <wire x1="-6.35" y1="-2.54" x2="-6.35" y2="2.54" width="0.127" layer="52"/>
-<text x="0" y="0" size="1" layer="52" ratio="12" rot="MR0" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="52" ratio="10" rot="MR0" align="center">&gt;NAME</text>
 </package>
 <package name="PTH-0.1-2X5-SHROUDED">
 <wire x1="4.5" y1="10.1" x2="4.5" y2="-10.1" width="0.127" layer="21"/>
@@ -298,37 +260,6 @@ by exp-lbrs.ulp</description>
 <wire x1="4.5" y1="-10.1" x2="-4.5" y2="-10.1" width="0.127" layer="51"/>
 <text x="0" y="0" size="1" layer="51" ratio="12" rot="R90" align="center">&gt;NAME</text>
 </package>
-<package name="PTH-0.05-2X5-SHROUDED-SMD">
-<circle x="-3.25" y="4" radius="0.25" width="0" layer="21"/>
-<circle x="-2" y="5.75" radius="0.25" width="0" layer="51"/>
-<wire x1="-2.55" y1="6.329" x2="2.55" y2="6.329" width="0.127" layer="21"/>
-<wire x1="2.55" y1="-6.321" x2="-2.55" y2="-6.321" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="-6.321" x2="-2.55" y2="-3.1" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="3.1" x2="-2.55" y2="6.329" width="0.127" layer="21"/>
-<wire x1="2.55" y1="6.329" x2="2.55" y2="3.1" width="0.127" layer="21"/>
-<wire x1="2.55" y1="-3.1" x2="2.55" y2="-6.321" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="-6.321" x2="-2.55" y2="6.329" width="0.05" layer="51"/>
-<wire x1="-2.55" y1="6.329" x2="2.55" y2="6.329" width="0.05" layer="51"/>
-<wire x1="2.55" y1="6.329" x2="2.55" y2="-6.321" width="0.05" layer="51"/>
-<wire x1="2.55" y1="-6.321" x2="-2.55" y2="-6.321" width="0.05" layer="51"/>
-<smd name="1" x="-1.95" y="2.54" dx="2.4" dy="0.76" layer="1"/>
-<smd name="2" x="1.95" y="2.54" dx="2.4" dy="0.76" layer="1"/>
-<smd name="3" x="-1.95" y="1.27" dx="2.4" dy="0.76" layer="1"/>
-<smd name="4" x="1.95" y="1.27" dx="2.4" dy="0.76" layer="1"/>
-<smd name="5" x="-1.95" y="0" dx="2.4" dy="0.76" layer="1"/>
-<smd name="6" x="1.95" y="0" dx="2.4" dy="0.76" layer="1"/>
-<smd name="7" x="-1.95" y="-1.27" dx="2.4" dy="0.76" layer="1"/>
-<smd name="8" x="1.95" y="-1.27" dx="2.4" dy="0.76" layer="1"/>
-<smd name="9" x="-1.95" y="-2.54" dx="2.4" dy="0.76" layer="1"/>
-<smd name="10" x="1.95" y="-2.54" dx="2.4" dy="0.76" layer="1"/>
-<text x="0" y="0" size="1" layer="21" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<polygon width="0.01" layer="21">
-<vertex x="-2.25" y="4"/>
-<vertex x="-0.75" y="4.5"/>
-<vertex x="-0.75" y="3.5"/>
-</polygon>
-</package>
 <package name="M2.5-HOLE">
 <circle x="0" y="0" radius="2.75" width="0" layer="41"/>
 <circle x="0" y="0" radius="2.75" width="0" layer="42"/>
@@ -342,9 +273,9 @@ by exp-lbrs.ulp</description>
 <pad name="P$8" x="-1.4" y="-1.4" drill="0.3" stop="no"/>
 <pad name="P$9" x="1.4" y="-1.4" drill="0.3" stop="no"/>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.4" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.375" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="2.5" width="0.127" layer="52"/>
-<circle x="0" y="0" radius="1.4" width="0.127" layer="52"/>
+<circle x="0" y="0" radius="1.375" width="0.127" layer="52"/>
 </package>
 <package name="LQFP-64">
 <circle x="-5.35" y="-5.35" radius="0.25" width="0" layer="21"/>
@@ -439,17 +370,6 @@ by exp-lbrs.ulp</description>
 <wire x1="-2.5" y1="1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
 </package>
-<package name="CRYSTAL-HC49/US">
-<wire x1="6.5" y1="2.5" x2="6.5" y2="1.25" width="0.12" layer="21"/>
-<wire x1="6.5" y1="-1.25" x2="6.5" y2="-2.5" width="0.12" layer="21"/>
-<wire x1="6.5" y1="-2.5" x2="-6.5" y2="-2.5" width="0.12" layer="21"/>
-<wire x1="-6.5" y1="-2.5" x2="-6.5" y2="-1.25" width="0.12" layer="21"/>
-<wire x1="-6.5" y1="1.25" x2="-6.5" y2="2.5" width="0.12" layer="21"/>
-<wire x1="-6.5" y1="2.5" x2="6.5" y2="2.5" width="0.12" layer="21"/>
-<smd name="1" x="-4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
-<smd name="2" x="4.75" y="0" dx="5.6" dy="2.1" layer="1"/>
-<text x="0" y="0" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
-</package>
 <package name="SOT-23">
 <description>TO-236 ITT Intermetall</description>
 <wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
@@ -465,25 +385,6 @@ by exp-lbrs.ulp</description>
 <text x="2.4" y="0" size="1" layer="21" ratio="10" rot="R270" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="12" align="center">&gt;NAME</text>
 <wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.127" layer="21"/>
-</package>
-<package name="SOT-323">
-<wire x1="-0.625" y1="1" x2="0.625" y2="1" width="0.05" layer="51"/>
-<wire x1="0.625" y1="1" x2="0.625" y2="-1" width="0.05" layer="51"/>
-<wire x1="0.625" y1="-1" x2="-0.625" y2="-1" width="0.05" layer="51"/>
-<wire x1="-0.625" y1="-1" x2="-0.625" y2="1" width="0.05" layer="51"/>
-<wire x1="-1.4" y1="0.5" x2="-0.7" y2="0.5" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="0.5" x2="-0.7" y2="1.1" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="1.1" x2="1.4" y2="1.1" width="0.127" layer="21"/>
-<wire x1="1.4" y1="1.1" x2="1.4" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="1.4" y1="-1.1" x2="-0.7" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="-1.1" x2="-0.7" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-0.7" y1="-0.5" x2="-1.4" y2="-0.5" width="0.127" layer="21"/>
-<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.127" layer="21"/>
-<smd name="1" x="0.925" y="-0.65" dx="0.55" dy="0.6" layer="1"/>
-<smd name="2" x="0.925" y="0.65" dx="0.55" dy="0.6" layer="1"/>
-<smd name="3" x="-0.925" y="0" dx="0.55" dy="0.6" layer="1"/>
-<text x="-2.25" y="0" size="1" layer="21" ratio="10" rot="R90" align="center">&gt;NAME</text>
-<text x="0" y="0" size="0.7" layer="51" ratio="10" rot="R90" align="center">&gt;NAME</text>
 </package>
 <package name="TSSOP-16">
 <circle x="-2.85" y="-2.55" radius="0.25" width="0" layer="21"/>
@@ -513,7 +414,7 @@ by exp-lbrs.ulp</description>
 <smd name="14" x="-0.975" y="2.925" dx="0.32" dy="1.05" layer="1"/>
 <smd name="15" x="-1.625" y="2.925" dx="0.32" dy="1.05" layer="1"/>
 <smd name="16" x="-2.275" y="2.925" dx="0.32" dy="1.05" layer="1"/>
-<text x="0" y="3" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="TSSOP-8">
@@ -538,25 +439,6 @@ by exp-lbrs.ulp</description>
 <wire x1="1.5" y1="2.2" x2="1.5" y2="-2.2" width="0.127" layer="51"/>
 <wire x1="1.5" y1="-2.2" x2="-1.5" y2="-2.2" width="0.127" layer="51"/>
 <circle x="-1" y="-1.75" radius="0.25" width="0" layer="51"/>
-</package>
-<package name="SO-8">
-<description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;
-NS Package M08A</description>
-<circle x="-2.75" y="-2.25" radius="0.25" width="0" layer="21"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="2.4" y1="-1.9" x2="-1.9" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="-1.9" x2="-2.4" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.127" layer="21"/>
-<smd name="1" x="-1.905" y="-3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="2" x="-0.635" y="-3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="3" x="0.635" y="-3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="4" x="1.905" y="-3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="5" x="1.905" y="3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="6" x="0.635" y="3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="7" x="-0.635" y="3" dx="0.6" dy="1.8" layer="1"/>
-<smd name="8" x="-1.905" y="3" dx="0.6" dy="1.8" layer="1"/>
-<text x="0" y="0" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
 </package>
 <package name="TSSOP-14">
 <circle x="-2.85" y="-2.55" radius="0.25" width="0" layer="21"/>
@@ -653,24 +535,6 @@ NS Package M08A</description>
 <wire x1="3.35" y1="1.85" x2="3.35" y2="-1.85" width="0.127" layer="51"/>
 <text x="0" y="0" size="1" layer="51" ratio="12" rot="R180" align="center">&gt;NAME</text>
 </package>
-<package name="WSON-8">
-<circle x="-2.25" y="-2.25" radius="0.25" width="0" layer="21"/>
-<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
-<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
-<wire x1="2" y1="-2" x2="-1.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="-2" x2="-2" y2="-1.5" width="0.127" layer="21"/>
-<wire x1="-2" y1="-1.5" x2="-2" y2="2" width="0.127" layer="21"/>
-<smd name="1" x="-1.2" y="-1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="2" x="-0.4" y="-1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="3" x="0.4" y="-1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="4" x="1.2" y="-1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="5" x="1.2" y="1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="6" x="0.4" y="1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="7" x="-0.4" y="1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="8" x="-1.2" y="1.65" dx="0.3" dy="0.5" layer="1"/>
-<smd name="9" x="0" y="0" dx="3" dy="2.2" layer="1"/>
-<text x="0" y="0" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
-</package>
 <package name="SSOP-28">
 <circle x="-5.45" y="-3" radius="0.25" width="0" layer="21"/>
 <circle x="-4.6" y="-2.15" radius="0.25" width="0" layer="51"/>
@@ -728,65 +592,22 @@ NS Package M08A</description>
 <wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="51"/>
 <text x="0" y="0" size="1" layer="51" ratio="12" align="center">&gt;NAME</text>
 </package>
-<package name="CRYSTAL-ABM2">
-<wire x1="-4" y1="2.25" x2="4" y2="2.25" width="0.127" layer="21"/>
-<wire x1="4" y1="-2.25" x2="-4" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-4" y1="2.25" x2="4" y2="2.25" width="0.05" layer="51"/>
-<wire x1="-4" y1="-2.25" x2="-4" y2="2.25" width="0.05" layer="51"/>
-<wire x1="4" y1="-2.25" x2="-4" y2="-2.25" width="0.05" layer="51"/>
-<wire x1="4" y1="2.25" x2="4" y2="-2.25" width="0.05" layer="51"/>
-<smd name="1" x="-3.25" y="0" dx="2.5" dy="3" layer="1"/>
-<smd name="2" x="3.25" y="0" dx="2.5" dy="3" layer="1"/>
-<text x="0" y="0" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
+<package name="0805-NP">
+<description>Capacitor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
+<wire x1="1.75" y1="1" x2="-1.75" y2="1" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1" x2="-1.75" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.127" layer="21"/>
+<wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="21"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1.5" layer="1" rot="R180"/>
+<smd name="2" x="1" y="0" dx="1" dy="1.5" layer="1"/>
+<text x="0" y="1.35" size="1" layer="21" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="-1.75" y1="1" x2="1.75" y2="1" width="0.127" layer="51"/>
+<wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1" x2="-1.75" y2="-1" width="0.127" layer="51"/>
+<wire x1="-1.75" y1="-1" x2="-1.75" y2="1" width="0.127" layer="51"/>
 <text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-4" y1="2.25" x2="-4" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="4" y1="-2.25" x2="4" y2="2.25" width="0.127" layer="21"/>
 </package>
-<package name="QFN-28">
-<circle x="-2.85" y="-2.85" radius="0.25" width="0" layer="21"/>
-<circle x="-2" y="-2" radius="0.25" width="0" layer="51"/>
-<wire x1="-2" y1="-2.5" x2="-2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
-<smd name="1" x="-1.5" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="2" x="-1" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="3" x="-0.5" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="4" x="0" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="5" x="0.5" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="6" x="1" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="7" x="1.5" y="-2.495" dx="0.79" dy="0.25" layer="1" rot="R270"/>
-<smd name="8" x="2.495" y="-1.5" dx="0.79" dy="0.25" layer="1"/>
-<smd name="9" x="2.495" y="-1" dx="0.79" dy="0.25" layer="1"/>
-<smd name="10" x="2.495" y="-0.5" dx="0.79" dy="0.25" layer="1"/>
-<smd name="11" x="2.495" y="0" dx="0.79" dy="0.25" layer="1"/>
-<smd name="12" x="2.495" y="0.5" dx="0.79" dy="0.25" layer="1"/>
-<smd name="13" x="2.495" y="1" dx="0.79" dy="0.25" layer="1"/>
-<smd name="14" x="2.495" y="1.5" dx="0.79" dy="0.25" layer="1"/>
-<smd name="15" x="1.5" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="16" x="1" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="17" x="0.5" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="18" x="0" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="19" x="-0.5" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="20" x="-1" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="21" x="-1.5" y="2.495" dx="0.79" dy="0.25" layer="1" rot="R90"/>
-<smd name="22" x="-2.495" y="1.5" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="23" x="-2.495" y="1" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="24" x="-2.495" y="0.5" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="25" x="-2.495" y="0" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="26" x="-2.495" y="-0.5" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="27" x="-2.495" y="-1" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="28" x="-2.495" y="-1.5" dx="0.79" dy="0.25" layer="1" rot="R180"/>
-<smd name="PAD" x="0" y="0" dx="3.3" dy="3.3" layer="1" rot="R90"/>
-<text x="0" y="3.5" size="1" layer="21" ratio="10" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2" width="0.127" layer="21"/>
-<wire x1="-2" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
-</package>
-<package name="PTH-0.1-2X5">
+<package name="PTH-0.1-2X5-MALE">
 <wire x1="3.81" y1="-1.905" x2="3.175" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="3.175" y1="-2.54" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
 <wire x1="1.905" y1="-2.54" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
@@ -1232,7 +1053,7 @@ NS Package M08A</description>
 <gate name="G$1" symbol="HEADER-2X5" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-PTH-0.1" package="PTH-0.1-2X5">
+<device name="-PTH-0.1" package="PTH-0.1-2X5-MALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -1249,7 +1070,7 @@ NS Package M08A</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-PTH-0.1-FLIP" package="PTH-0.1-2X5-FLIP">
+<device name="-PTH-0.1-FLIP" package="PTH-0.1-2X5-FEMALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -1284,23 +1105,6 @@ NS Package M08A</description>
 </technologies>
 </device>
 <device name="-PTH-0.05-SHROUDED" package="PTH-0.05-2X5-SHROUDED">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="10" pad="10"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-<connect gate="G$1" pin="9" pad="9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-PTH-0.05-SHROUDED-SMD" package="PTH-0.05-2X5-SHROUDED-SMD">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -1451,41 +1255,6 @@ NS Package M08A</description>
 <gate name="G$1" symbol="WM8731" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-QFN-28" package="QFN-28">
-<connects>
-<connect gate="G$1" pin="ADCDAT" pad="10"/>
-<connect gate="G$1" pin="ADCLRC" pad="11"/>
-<connect gate="G$1" pin="AGND" pad="19 PAD"/>
-<connect gate="G$1" pin="AVDD" pad="18"/>
-<connect gate="G$1" pin="BCLK" pad="7"/>
-<connect gate="G$1" pin="CLKOUT" pad="6"/>
-<connect gate="G$1" pin="CSB" pad="26"/>
-<connect gate="G$1" pin="DACDAT" pad="8"/>
-<connect gate="G$1" pin="DACLRC" pad="9"/>
-<connect gate="G$1" pin="DBVDD" pad="5"/>
-<connect gate="G$1" pin="DCVDD" pad="3"/>
-<connect gate="G$1" pin="DGND" pad="4"/>
-<connect gate="G$1" pin="HPGND" pad="15"/>
-<connect gate="G$1" pin="HPVDD" pad="12"/>
-<connect gate="G$1" pin="LHPOUT" pad="13"/>
-<connect gate="G$1" pin="LLINEIN" pad="24"/>
-<connect gate="G$1" pin="LOUT" pad="16"/>
-<connect gate="G$1" pin="MICBIAS" pad="21"/>
-<connect gate="G$1" pin="MICIN" pad="22"/>
-<connect gate="G$1" pin="MODE" pad="25"/>
-<connect gate="G$1" pin="RHPOUT" pad="14"/>
-<connect gate="G$1" pin="RLINEIN" pad="23"/>
-<connect gate="G$1" pin="ROUT" pad="17"/>
-<connect gate="G$1" pin="SCLK" pad="28"/>
-<connect gate="G$1" pin="SDIN" pad="27"/>
-<connect gate="G$1" pin="VMID" pad="20"/>
-<connect gate="G$1" pin="XTI/MCLK" pad="1"/>
-<connect gate="G$1" pin="XTO" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="-SSOP-28" package="SSOP-28">
 <connects>
 <connect gate="G$1" pin="ADCDAT" pad="6"/>
@@ -1528,25 +1297,7 @@ NS Package M08A</description>
 <gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-ABM2" package="CRYSTAL-ABM2">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="-ABM3" package="CRYSTAL-ABM3">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-HC49/US" package="CRYSTAL-HC49/US">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1563,16 +1314,6 @@ NS Package M08A</description>
 </gates>
 <devices>
 <device name="-SOT23-BEC" package="SOT-23">
-<connects>
-<connect gate="G$1" pin="B" pad="1"/>
-<connect gate="G$1" pin="C" pad="3"/>
-<connect gate="G$1" pin="E" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOT323-BEC" package="SOT-323">
 <connects>
 <connect gate="G$1" pin="B" pad="1"/>
 <connect gate="G$1" pin="C" pad="3"/>
@@ -1622,21 +1363,6 @@ NS Package M08A</description>
 <gate name="P" symbol="POWER" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SO-8" package="SO-8">
-<connects>
-<connect gate="A" pin="+" pad="3"/>
-<connect gate="A" pin="-" pad="2"/>
-<connect gate="A" pin="OUT" pad="1"/>
-<connect gate="B" pin="+" pad="5"/>
-<connect gate="B" pin="-" pad="6"/>
-<connect gate="B" pin="OUT" pad="7"/>
-<connect gate="P" pin="+" pad="8"/>
-<connect gate="P" pin="-" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 <device name="-TSSOP-8" package="TSSOP-8">
 <connects>
 <connect gate="A" pin="+" pad="3"/>
@@ -1738,16 +1464,6 @@ NS Package M08A</description>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="2 4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-WSON-8" package="WSON-8">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="VIN" pad="2 3 4"/>
-<connect gate="G$1" pin="VOUT" pad="5 6 7 9"/>
 </connects>
 <technologies>
 <technology name=""/>
