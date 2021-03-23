@@ -9,6 +9,8 @@
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -45,6 +47,17 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="11" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -1781,7 +1794,7 @@ by exp-lbrs.ulp</description>
 <vertex x="2.061709375" y="1.144628125"/>
 <vertex x="1.77950625" y="1.144628125"/>
 </polygon>
-<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000XXX</text>
+<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000201</text>
 </package>
 <package name="LOGO-TD">
 <polygon width="0" layer="21">

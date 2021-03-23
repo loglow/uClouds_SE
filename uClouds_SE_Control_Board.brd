@@ -57,7 +57,7 @@
 <wire x1="40" y1="3" x2="37" y2="0" width="0.127" layer="20" curve="-90"/>
 <wire x1="37" y1="110.5" x2="40" y2="107.5" width="0.127" layer="20" curve="-90"/>
 <text x="20" y="87.5" size="2" layer="22" ratio="12" rot="MR180" align="center">TD-UCSE-D-CB</text>
-<text x="20" y="80" size="2" layer="22" ratio="12" rot="MR180" align="center">2019-12-18</text>
+<text x="20" y="80" size="2" layer="22" ratio="12" rot="MR180" align="center">2020-02-13</text>
 </plain>
 <libraries>
 <library name="uClouds_SE_Library">
